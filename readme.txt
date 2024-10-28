@@ -1,0 +1,1 @@
+simple project in c language that containing a corona virus vacin management by using struct and arrays to stock the information
