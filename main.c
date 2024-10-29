@@ -69,7 +69,7 @@ void CitoyenVac(Citoyen c[max], int n, char type[30], Citoyen tab[max], int *k) 
     int i;
     *k = 0;
     for (i = 0; i < n; i++) {
-        if (strcmp(c[i].vac.type, type) == 0) {  // Corrected strcmp usage
+        if (strcmp(c[i].vac.type, type) == 0) {  
             tab[*k] = c[i];
             (*k)++;
         }
